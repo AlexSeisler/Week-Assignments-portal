@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <p id="top">
+            First to 5 Wins!
+        </p>
+    </div>
+    <div id="whole">
+        
+        <div class="moves">
+            <div class="moves-header">
+                <p>Moves</p>
+            </div>
+            <div class="moves-list">
+                <p id = "moves-list">
+                    
+                </p>
+            </div>
+        </div>
+        <div id="game">
+            <div id="score">
+                <div class="text">
+                    <div class="play">
+                        <p id="resultPlayer">
+                            0
+                        </p>
+                        
+                    </div>
+                    <p id = "Hactions">
+
+                    </p>
+                </div>
+                <div class="text1">
+                    <div class="play1">
+                        <p id="resultComputer">
+                            0
+                        </p>
+                        
+                    </div>
+                    <p id = "Cactions">
+                            
+                    </p>
+                </div>
+                
+            </div>
+            <div id="text">
+                <h1>Results</h1>
+                <p id="GameResult">
+
+                </p>
+            </div>
+            <div class="buttons">
+                <button class="image-button" onclick='playRound("rock",getComputerChoice())'><img src="images/rock.png" height="150" width="150"></button>
+                <button class="image-button" onclick='playRound("paper",getComputerChoice())'><img src="images/paper.png" height="150" width="150"></button>
+                <button class="image-button" onclick='playRound("scissors",getComputerChoice())'><img src="images/scissors.png" height="150" width="150"></button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

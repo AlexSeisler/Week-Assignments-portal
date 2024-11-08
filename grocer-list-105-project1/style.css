@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    min-height:100vh;
+    background-color: rgb(41, 40, 40);
+    
+}
+.groceryHeader{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    width:400px;
+    background-color: #A8D5BA;
+    padding:20px;
+    border-radius: 10px;
+    
+}
+#grocery{
+    display:none;
+}
+.theList{
+    background-color: #FFF7E1;
+    height:500px;
+    width:400px;
+    border-radius: 20px;
+    overflow:auto;
+    
+}
+
+li{
+    margin-left:25px;
+    margin-top:10px;
+    
+}
+.crossed {
+    text-decoration: line-through;
+    color: gray; 
+}
+
+#list{
+    margin-right:20px;
+    overflow:auto;
+}

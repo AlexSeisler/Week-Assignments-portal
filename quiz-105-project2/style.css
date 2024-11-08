@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/631/117/non_2x/bright-cloudy-sky-cartoon-illustration-background-free-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#container{
+    outline:2px solid black;
+    height:100px;
+    width:200px;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    gap:10px;
+}
+#start{
+    height:30px;
+    width:100px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+#nextQuestionButton{
+    display:none;
+}
+#head{
+    margin-top:20px;
+}
+#reset{
+    display:none;
+}
+

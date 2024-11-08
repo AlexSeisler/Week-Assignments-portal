@@ -1,0 +1,137 @@
+button{
+    height:150px;
+    width:150px;
+    background-color:grey;
+    color:white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 20px;;
+    
+}
+.image-button{
+    display:flex;
+    justify-content: center;
+    overflow:hidden;
+}
+.buttons{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+}
+button:hover{
+    transform:scale(1.1);
+}
+#resultPlayer{
+    color:white;
+    font-size:60px;
+    
+}
+#resultComputer{
+    color:white;
+    font-size:60px;
+}
+#score{
+    font-size:20px;
+    color:white;
+    height:60px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+
+    padding:10px;
+}
+#text{
+
+    font-size:15px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+}
+#game{
+    outline:black solid 5px;
+    height:500px;
+    width:500px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.play{
+    background-color: blue;
+    height:80px;
+    width:80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 21px 2px rgba(0,0,0,0.61);
+    
+}
+.play1{
+    background-color: red;
+    height:80px;
+    width:80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 21px 2px rgba(0,0,0,0.61);
+}
+#game{
+    background-image: url("https://wallpaperaccess.com/full/3166789.jpg");
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#top{
+    font-size: 50px;
+}
+#whole{
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+}
+.moves{
+    position: relative;
+    outline:solid 15px blue;
+    height:400px;
+    width:300px;
+
+}
+.moves-header{
+    position: absolute;
+    bottom:350px;
+    right:50px;
+    background-color: brown;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    outline:solid 3px red;
+    height:80px;
+    width:200px;
+    border-radius: 20px;
+    color:white;
+    font-size: 50px;
+}
+.moves-list{
+    position: absolute;
+    top:45px;
+    left:20px;
+}

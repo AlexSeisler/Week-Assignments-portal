@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="groceryHeader">
+            <h2 class="heading">
+                Grocery List
+            </h2>
+            <div class="userInput">
+
+                
+                <form action="" id="grocery" onsubmit="addItem(event)">
+                    <input type="text" id="user">
+                    <input type="submit" value="AddItem">
+                </form>
+
+                <div class="userInput">
+                    <select id="colorSelect" onchange="inputChange()">
+                        <option value="none">All items</option>
+                        <option value="purchased">Purchased</option>
+                        <option value="items-left">Items-left</option>
+                        <option value="add-item">Add-items</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="theList">
+            <ol id="list">
+                
+            </ol>
+        </div>
+        
+    </div>
+</body>
+</html>

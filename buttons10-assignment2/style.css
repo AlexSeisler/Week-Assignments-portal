@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.page{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+}
+#colorSelect{
+    height:50px;
+    width:130px;
+    background-color:maroon;
+    color:white;
+    font-size: 20px;;
+    padding:5px;
+}
+.buttons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:500px;
+}
+h2{
+    font-size: 50px;
+    color:white;
+}
